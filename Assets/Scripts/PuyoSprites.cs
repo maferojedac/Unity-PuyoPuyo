@@ -64,10 +64,10 @@ public class PuyoSprites : ScriptableObject
         PuyoTypes.Add(Base.PuyoState, Base); //para guardar la estructura en el diccionario
 
         ConnectedUp.AsignPuyoState(true, false, false, false);
-        PuyoTypes.Add(Base.PuyoState, Base);
+        //PuyoTypes.Add(Base.PuyoState, Base);
 
         ConnectedRight.AsignPuyoState(false, false, true, false);
-        PuyoTypes.Add(Base.PuyoState, Base);
+        //PuyoTypes.Add(Base.PuyoState, Base);
 
         ConnectedDown.AsignPuyoState(false, true, false, false);
         ConnectedLeft.AsignPuyoState(false, false, false, true);
