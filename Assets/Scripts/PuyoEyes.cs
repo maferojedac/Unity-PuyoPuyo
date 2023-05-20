@@ -27,11 +27,11 @@ public class PuyoEyes : MonoBehaviour
     //en orden de ejecucion: Awake, Start, OnEnable (ocurre cuando un objeto es activado)
     private void Awake() {
         _spriteRenderer = GetComponent<SpriteRenderer>(); //cargamos las cosas
-        _animateEyes = AnimateEyes(animationEyes); //para que no repetita las animaciones
+        _animateEyes = AnimateEyes(animationTime); //para que no repetita las animaciones
     }
 
     private void OnEnable() {
-        // PROBAR CUANDO SIRVA
+        // PROBAR CUANDO SIRVA - EJECUTAR CADA LINEA EN ORDEN (SOLAMENTE 1 A LA VEZ)
         // StartCoroutine(AnimateEyes(animationTime));
         // StartCoroutine(AnimateEyesEveryRandomSeconds(animateEyesEverySecondsMin, animateEyesEverySecondsMax));
         // UpdateSpriteInfo(regularEyes);
@@ -68,11 +68,11 @@ public class PuyoEyes : MonoBehaviour
     //a lo largo de diferentes frames, podemos ejecutar cierto codigo
     private IEnumerator AnimateEyes(float animationTime) {
         //recorremos los sprites de la animacion
-        for(int i = 0; i < animationSprites.length; i++) {
+        for(int i = 0; i < animationSprites.Length; i++) {
             _spriteRenderer.sprite = animationSprites[i];
             yield return new WaitForSeconds(animationTime);
         }
-        _spriteRenderer.sprite = RegularEyes;
+        _spriteRenderer.sprite = regularEyes;
     }
 
     //se ejecutara constantemente en loop durante todo el tiempo del juego

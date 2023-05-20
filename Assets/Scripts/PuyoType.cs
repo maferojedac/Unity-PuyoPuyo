@@ -12,29 +12,27 @@ public class PuyoType : ScriptableObject
 
     [Header("General")]
     [SerializeField] private Color puyoColor;
+    public Color PuyoColor { get { return puyoColor; } private set { puyoColor = value; } }
+
+    [SerializeField] [Range(0.0f, 255.0f)] private float whiteAlphaChannel;
     public float WhiteAlphaChannel { get { return whiteAlphaChannel / 255; } private set { whiteAlphaChannel = value; } }
 
-//    [SerializeField] private Color puyoColor;
-//    public float WhiteAlphaChannel { get { return whiteAlphaChannel / 255; } private set { whiteAlphaChannel = value; } }
+    [Header("Puyo Sprites")]
+    [SerializeField] private PuyoSprites PuyoSprites;
 
-
-    public void InitializePuyoStates()
-    {
+    public void InitializePuyoStates() {
         PuyoSprites.InitializePuyoStates();
     }
 
-    public PuyoState GetPuyoState(bool up, bool down, bool left, bool right)
-    {
-        return PuyoSprites.GetPuyoStateSprites(up, down, left, right);
+    public PuyoState GetPuyoState(bool up, bool down, bool right, bool left) {
+        return PuyoSprites.GetPuyoStateSprites(up, down, right, left);
     }
 
-    public PuyoState GetPuyoState(string puyoStateID)
-    {
+    public PuyoState GetPuyoState(string puyoStateID) {
         return PuyoSprites.GetPuyoStateSprites(puyoStateID);
     }
 
-   public PuyoState GetPuyoState(int[] puyoState)
-    {
+    public PuyoState GetPuyoState(int[] puyoState) {
         return PuyoSprites.GetPuyoStateSprites(puyoState);
     }
 

@@ -7,7 +7,7 @@ public class PuyoController : MonoBehaviour
 {
     [SerializeField] private PuyoStateController puyoBase;
 
-    private Update() {
+    void Update() {
         if(Input.GetKeyDown(KeyCode.A)) {
             ChangePuyoState(false, false, false, false);
         }
