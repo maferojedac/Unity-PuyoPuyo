@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ce9433e80537b448cdadb11aef514c, type: 3}
+  m_Name: PuyoSprite_Regular
+  m_EditorClassIdentifier: 
+  Base:
+    Base: {fileID: 164226463, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: 1078156041, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: -1590204041, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: 437786365, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: -1590204041, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 676535703, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  ConnectedUp:
+    Base: {fileID: -1429046534, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: 395916338, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: 857085883, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: 1624806839, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: 857085883, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: -1171013775, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  ConnectedDown:
+    Base: {fileID: 1766260261, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: 680132129, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: 1748769241, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: 261790639, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: 1748769241, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 858911502, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  ConnectedLeft:
+    Base: {fileID: 1506935972, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: 1044496686, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: 1437704002, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: -134201367, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: 1437704002, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 784171924, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  ConnectedRight:
+    Base: {fileID: -275430278, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: -155012848, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: 1528277807, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: 1311421607, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: 1528277807, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 1921628207, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  ConnectedUpDown:
+    Base: {fileID: -344867668, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: 1658424425, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: 1588429125, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: 1503047416, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: 1588429125, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 1001234821, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: -1437547687, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 1969399659, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  ConnectedLeftRight:
+    Base: {fileID: -2118131726, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: -1711393882, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: -1171657974, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: -295569077, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: -1171657974, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 997527206, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: -1480875511, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: -1851594505, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  ConnectedLeftDown:
+    Base: {fileID: 1371213888, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: -1925587473, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: -1432775668, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: 453237427, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: -1432775668, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: -1554027188, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 1564069967, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 1564069967, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  ConnectedDownRight:
+    Base: {fileID: -1625002355, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: -859841469, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: 1600871281, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: -1161240742, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: 1600871281, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: -1489288672, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 2068968122, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 133749877, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  ConnectedUpRight:
+    Base: {fileID: 835716013, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: 805434264, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: -1424218088, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: 1084143914, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: -1424218088, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: -393415049, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: -1653065157, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: -643800615, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  ConnectedLeftUp:
+    Base: {fileID: 813805113, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: 1320904019, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: -1292343380, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: -1646477117, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: -1292343380, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 1776217041, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: -1824116405, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 2099180698, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  ConnectedLeftBase:
+    Base: {fileID: 1608277443, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: 1734505800, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: 1003244926, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: 1901612160, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: 1003244926, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 678895145, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: -1050632299, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 1178471916, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  ConnectedBaseRight:
+    Base: {fileID: -411067577, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: 1989004470, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: -2082916532, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: 1228539770, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: -2082916532, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: -143501339, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 695720006, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 2084854590, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  ConnectedBaseDown:
+    Base: {fileID: 1144981424, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: 1578117590, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: -1377600814, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: -493931165, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: -1377600814, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: -1018444945, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: -1908611142, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: -1408675470, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  ConnectedUpBase:
+    Base: {fileID: -1111030578, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: 1129765908, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: 504062765, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: 1366460161, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: 504062765, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 758042658, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 1714175997, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 254309573, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  ConnectedBaseCenter:
+    Base: {fileID: -1631058109, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    White: {fileID: -531419989, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    RegularEyes: {fileID: 1865187863, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    DieEyes: {fileID: -1434944542, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    AnimationEyes:
+    - {fileID: 1865187863, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+    - {fileID: 1737399768, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
