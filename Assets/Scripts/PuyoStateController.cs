@@ -67,4 +67,13 @@ public class PuyoStateController : MonoBehaviour
         _puyoState = _puyoType.GetPuyoState(connections);
         UpdateSpritesInfo();
     }
+
+    public void SetDieEyes() {
+        puyoEyes.OnDieState();
+    }
+
+    //nos devuelve el color del puyo
+    public Color GetPuyoColor() {
+        return _puyoType.PuyoColor;
+    }
 }
