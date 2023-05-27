@@ -1,4 +1,4 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -23,4 +23,3 @@ public class PuyoController : MonoBehaviour
         puyoBase.UpdateSpritesState(up, down, left, right);
     }
 }
-*/

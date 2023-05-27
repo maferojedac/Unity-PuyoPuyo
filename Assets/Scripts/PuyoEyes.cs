@@ -1,4 +1,4 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -56,12 +56,12 @@ public class PuyoEyes : MonoBehaviour
 
     public void UpdateEyesInfo(Sprite regularEyes, Sprite dieEyes, Sprite[] animationEyes) {
         StopAllCoroutines();
-        this.gameObject.setActive(false); //por seguridad agregarlo
+        this.gameObject.SetActive(false); //por seguridad agregarlo
         //this hace referencia al declarado arriba
         this.regularEyes =  regularEyes;
         aboutToDieEyes = dieEyes;
         animationSprites = animationEyes;
-        this.gameObject.setActive(true); //por seguridad agregarlo
+        this.gameObject.SetActive(true); //por seguridad agregarlo
     }
 
     //se ejecuta despues del Update
@@ -88,4 +88,3 @@ public class PuyoEyes : MonoBehaviour
     }
     
 }
-*/

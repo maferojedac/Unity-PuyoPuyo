@@ -1,4 +1,4 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -46,16 +46,16 @@ public class PuyoStateController : MonoBehaviour
     //para cambiar el tipo de puyo
     public void UpdatePuyoType(PuyoType puyoType){
         _puyoType = puyoType;
-        puyoTypeID = _puyoType.PuyoTypeID;
+        puyoTypeID = _puyoType.PuyoID;
 
-        UpdateSpritesInfo(false, false, false, false);
+        UpdateSpritesState(false, false, false, false);
     }
 
     public void UpdatePuyoType(PuyoType puyoType, int[] connections){
         _puyoType = puyoType;
-        puyoTypeID = _puyoType.PuyoTypeID;
+        puyoTypeID = _puyoType.PuyoID;
 
-        UpdateSpritesInfo(connections);
+        UpdateSpritesState(connections);
     }
 
     public void UpdateSpritesState(bool up, bool down, bool left, bool right) {
@@ -68,4 +68,3 @@ public class PuyoStateController : MonoBehaviour
         UpdateSpritesInfo();
     }
 }
-*/

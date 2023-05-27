@@ -28,7 +28,7 @@ public class PuyoType : ScriptableObject
 
     //para inicializar los estados de los puyos -- el diccionario
     public void InitializePuyoStates() {
-        PuyoSprites.InitializePuyoStates[];
+        PuyoSprites.InitializePuyoState();
     }
 
     public PuyoState GetPuyoState(bool up, bool down, bool right, bool left) {
