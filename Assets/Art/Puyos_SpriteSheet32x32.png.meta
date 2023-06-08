@@ -120,7 +120,7 @@ TextureImporter:
       name: LR_1
       rect:
         serializedVersion: 2
-        x: 192
+        x: 193
         y: 224
         width: 32
         height: 32
@@ -222,7 +222,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LA_1
+      name: LUD_1
       rect:
         serializedVersion: 2
         x: 352
@@ -243,7 +243,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR_1
+      name: RUD_1
       rect:
         serializedVersion: 2
         x: 384
@@ -264,7 +264,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AD_1
+      name: DRL_1
       rect:
         serializedVersion: 2
         x: 416
@@ -285,7 +285,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UA_1
+      name: URL_1
       rect:
         serializedVersion: 2
         x: 448
@@ -306,7 +306,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AC_1
+      name: UDRL_1
       rect:
         serializedVersion: 2
         x: 480
@@ -495,7 +495,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LA_2
+      name: LUD_2
       rect:
         serializedVersion: 2
         x: 352
@@ -516,7 +516,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR_2
+      name: RUD_2
       rect:
         serializedVersion: 2
         x: 384
@@ -537,7 +537,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AD_2
+      name: DRL_2
       rect:
         serializedVersion: 2
         x: 416
@@ -558,7 +558,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UA_2
+      name: URL_2
       rect:
         serializedVersion: 2
         x: 448
@@ -579,7 +579,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AC_2
+      name: UDRL_2
       rect:
         serializedVersion: 2
         x: 480
@@ -768,7 +768,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LA_3
+      name: LUD_3
       rect:
         serializedVersion: 2
         x: 353
@@ -789,7 +789,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR_3
+      name: RUD_3
       rect:
         serializedVersion: 2
         x: 384
@@ -810,7 +810,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AD_3
+      name: DRL_3
       rect:
         serializedVersion: 2
         x: 416
@@ -831,7 +831,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UA_3
+      name: URL_3
       rect:
         serializedVersion: 2
         x: 448
@@ -852,7 +852,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AC_3
+      name: UDRL_3
       rect:
         serializedVersion: 2
         x: 480
@@ -1041,7 +1041,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LA_4
+      name: LUD_4
       rect:
         serializedVersion: 2
         x: 352
@@ -1062,7 +1062,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR_4
+      name: RUD_4
       rect:
         serializedVersion: 2
         x: 384
@@ -1083,7 +1083,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AD_4
+      name: DRL_4
       rect:
         serializedVersion: 2
         x: 416
@@ -1104,7 +1104,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UA_4
+      name: URL_4
       rect:
         serializedVersion: 2
         x: 448
@@ -1125,7 +1125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AC_4
+      name: UDRL_4
       rect:
         serializedVersion: 2
         x: 480
@@ -1314,7 +1314,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LA_5
+      name: LUD_5
       rect:
         serializedVersion: 2
         x: 352
@@ -1335,7 +1335,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR_5
+      name: RUD_5
       rect:
         serializedVersion: 2
         x: 384
@@ -1356,7 +1356,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AD_5
+      name: DRL_5
       rect:
         serializedVersion: 2
         x: 416
@@ -1377,7 +1377,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UA_5
+      name: URL_5
       rect:
         serializedVersion: 2
         x: 448
@@ -1398,7 +1398,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AC_5
+      name: UDRL_5
       rect:
         serializedVersion: 2
         x: 480
@@ -1671,7 +1671,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LA_6
+      name: LUD_6
       rect:
         serializedVersion: 2
         x: 352
@@ -1692,7 +1692,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR_6
+      name: RUD_6
       rect:
         serializedVersion: 2
         x: 384
@@ -1713,7 +1713,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AD_6
+      name: DRL_6
       rect:
         serializedVersion: 2
         x: 416
@@ -1734,7 +1734,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UA_6
+      name: URL_6
       rect:
         serializedVersion: 2
         x: 448
@@ -1944,7 +1944,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LA_7
+      name: LUD_7
       rect:
         serializedVersion: 2
         x: 352
@@ -1965,7 +1965,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AR_7
+      name: RUD_7
       rect:
         serializedVersion: 2
         x: 384
@@ -1986,7 +1986,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AD_7
+      name: DRL_7
       rect:
         serializedVersion: 2
         x: 416
@@ -2007,7 +2007,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UA_7
+      name: URL_7
       rect:
         serializedVersion: 2
         x: 448
@@ -2794,131 +2794,131 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AC_3: 1865187863
       UR_3: -1424218088
+      DRL_4: -1018444945
       UD_3: 1588429125
       L_4: 784171924
       LR_7: -295569077
       LD_4: -1554027188
-      LA_6: 1178471916
+      DRL_2: 1578117590
       DR_1: -1625002355
-      AC_5: -1434944542
+      DRL_5: -1908611142
+      URL_1: -1111030578
       Puyos_SpriteSheet32x32_124: -1485986515
       LU_7: -1646477117
       A_4: 676535703
       L_1: 1506935972
-      AD_3: -1377600814
+      URL_2: 1129765908
       Puyos_SpriteSheet32x32_74: -765732336
-      AR_4: -143501339
       Puyos_SpriteSheet32x32_125: -1090695542
       DR_7: -1161240742
       Puyos_SpriteSheet32x32_92: -1565677829
       D_5: 261790639
       UR_1: 835716013
-      AR_7: 1228539770
-      UA_3: 504062765
-      UA_6: 254309573
+      UDRL_5: -1434944542
       A_1: 164226463
       L_3: 1437704002
       UD_5: -1437547687
       D_4: 858911502
-      AC_1: -1631058109
+      UDRL_3: 1865187863
       DR_2: -859841469
       D_1: 1766260261
-      AC_2: -531419989
-      AD_1: 1144981424
+      URL_4: 758042658
       Puyos_SpriteSheet32x32_37: -767636080
-      AC_4: 1737399768
+      LUD_2: 1734505800
+      LUD_1: 1608277443
       LD_2: -1925587473
-      UR_4: -393415049
+      RUD_3: -2082916532
+      LU_4: 1776217041
       UD_7: 1503047416
       LU_1: 813805113
       LU_2: 1320904019
       DR_5: 2068968122
-      LU_4: 1776217041
+      UR_4: -393415049
       Puyos_SpriteSheet32x32_55: -1481266083
       Puyos_SpriteSheet32x32_17: 1664191018
       Puyos_SpriteSheet32x32_75: 530925459
+      UDRL_1: -1631058109
       U_1: -1429046534
+      LUD_3: 1003244926
       Puyos_SpriteSheet32x32_96: -893534559
       Puyos_SpriteSheet32x32_97: 170211909
+      RUD_5: 695720006
       UD_6: 1969399659
       R_4: 1921628207
       LR_5: -1480875511
-      LA_7: 1901612160
-      AR_2: 1989004470
+      RUD_7: 1228539770
       Puyos_SpriteSheet32x32_122: -1578660117
+      URL_3: 504062765
       L_2: 1044496686
-      AR_5: 695720006
-      AD_5: -1908611142
-      AD_4: -1018444945
-      UA_4: 758042658
       Puyos_SpriteSheet32x32_126: 543719209
       R_5: 1311421607
       A_2: 1078156041
       Puyos_SpriteSheet32x32_36: 1515183797
-      UA_7: 1366460161
       UR_2: 805434264
       LD_5: 1564069967
-      LA_3: 1003244926
+      RUD_2: 1989004470
       Puyos_SpriteSheet32x32_56: 466158095
       Puyos_SpriteSheet32x32_109: 2014289984
       U_5: 1624806839
-      UA_2: 1129765908
-      AD_6: -1408675470
       Puyos_SpriteSheet32x32_108: -1574825063
-      AR_1: -411067577
       Puyos_SpriteSheet32x32_16: 2115894059
       LR_4: 997527206
       Puyos_SpriteSheet32x32_123: 1129634709
       Puyos_SpriteSheet32x32_35: 1997094546
       LU_5: -1824116405
+      LUD_7: 1901612160
       LD_6: 1361559412
       LD_7: 453237427
       Puyos_SpriteSheet32x32_54: 2127948358
       UD_2: 1658424425
-      UA_5: 1714175997
       R_3: 1528277807
+      DRL_6: -1408675470
       L_5: -134201367
+      UDRL_4: 1737399768
+      RUD_4: -143501339
+      LUD_4: 678895145
       DR_6: 133749877
-      LA_2: 1734505800
       Puyos_SpriteSheet32x32_18: 1391303529
       DR_3: 1600871281
       Puyos_SpriteSheet32x32_73: -1973013066
       LR_3: -1171657974
-      UA_1: -1111030578
       LU_3: -1292343380
       Puyos_SpriteSheet32x32_95: 150487338
       UR_7: 1084143914
       LD_3: -1432775668
-      LA_5: -1050632299
-      AR_6: 2084854590
+      DRL_3: -1377600814
+      URL_7: 1366460161
+      DRL_7: -493931165
+      LUD_6: 1178471916
       A_3: -1590204041
       A_5: 437786365
       LR_2: -1711393882
       UR_6: -643800615
-      AD_2: 1578117590
       U_4: -1171013775
       U_3: 857085883
+      RUD_1: -411067577
       LR_1: -2118131726
       UD_1: -344867668
+      UDRL_2: -531419989
       UD_4: 1001234821
       UR_5: -1653065157
-      AD_7: -493931165
       Puyos_SpriteSheet32x32_110: -1674752847
       LR_6: -1851594505
       DR_4: -1489288672
       Puyos_SpriteSheet32x32_94: 55550111
+      DRL_1: 1144981424
       D_2: 680132129
       Puyos_SpriteSheet32x32_121: 642530755
-      LA_1: 1608277443
-      LA_4: 678895145
+      RUD_6: 2084854590
       U_2: 395916338
       R_2: -155012848
       LU_6: 2099180698
       D_3: 1748769241
-      AR_3: -2082916532
       LD_1: 1371213888
+      URL_6: 254309573
+      URL_5: 1714175997
+      LUD_5: -1050632299
       R_1: -275430278
       Puyos_SpriteSheet32x32_93: 436738793
   spritePackingTag: 

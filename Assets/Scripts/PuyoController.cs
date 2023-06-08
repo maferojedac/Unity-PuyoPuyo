@@ -38,9 +38,9 @@ public class PuyoController : MonoBehaviour
         }
     }
 
-    public void ChangePuyoState(bool up, bool down, bool left, bool right) {
+    public void ChangePuyoState(bool up, bool down, bool right, bool left) {
         if (!isDying)
-            puyoBase.UpdateSpritesState(up, down, left, right);
+            puyoBase.UpdateSpritesState(up, down, right, left);
     }
 
     public void ChangePuyoState(int[] connections) {

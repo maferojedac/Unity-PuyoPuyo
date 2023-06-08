@@ -263,6 +263,7 @@ GameObject:
   m_Component:
   - component: {fileID: 361163789}
   - component: {fileID: 361163790}
+  - component: {fileID: 361163791}
   m_Layer: 7
   m_Name: Eyes
   m_TagString: Untagged
@@ -337,6 +338,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &361163791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361163788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ccbe63142831a4da46367b3e8a0918, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  regularEyes: {fileID: -1590204041, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  aboutToDieEyes: {fileID: 437786365, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  animationTime: 0.1
+  animateEyesEverySecondsMin: 1
+  animateEyesEverySecondsMax: 3
+  animationSprites:
+  - {fileID: -1590204041, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
+  - {fileID: 676535703, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
 --- !u!1 &1030422542
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,7 +668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16f4716214ed75a43980742baae919c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puyoBase: {fileID: 0}
+  puyoBase: {fileID: 1332824256}
   puyoExplosion: {fileID: 1734382590}
 --- !u!1 &1320957368
 GameObject:
@@ -690,6 +711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1332824255}
   - component: {fileID: 1332824254}
+  - component: {fileID: 1332824256}
   m_Layer: 7
   m_Name: PuyoBase
   m_TagString: Untagged
@@ -766,6 +788,22 @@ Transform:
   m_Father: {fileID: 1065999306}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1332824256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332824253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e786bc35d64c394abd3069a0ccde8e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _puyoType: {fileID: 11400000, guid: 2917706b0006c624dbf3fd0e29a2c669, type: 2}
+  Base: {fileID: 1332824254}
+  White: {fileID: 349239762}
+  puyoEyes: {fileID: 361163791}
 --- !u!1 &1556888942
 GameObject:
   m_ObjectHideFlags: 0

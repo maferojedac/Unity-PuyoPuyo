@@ -59,16 +59,17 @@ public class PuyoSprites : ScriptableObject
     [SerializeField] private PuyoState ConnectedRight;
     [SerializeField] private PuyoState ConnectedUpDown;
     [SerializeField] private PuyoState ConnectedLeftRight;
+
     //hecho de tarea
     [SerializeField] private PuyoState ConnectedLeftDown;
     [SerializeField] private PuyoState ConnectedDownRight;
     [SerializeField] private PuyoState ConnectedUpRight;
     [SerializeField] private PuyoState ConnectedLeftUp;
-    [SerializeField] private PuyoState ConnectedLeftBase;
-    [SerializeField] private PuyoState ConnectedBaseRight;
-    [SerializeField] private PuyoState ConnectedBaseDown;
-    [SerializeField] private PuyoState ConnectedUpBase;
-    [SerializeField] private PuyoState ConnectedBaseCenter;
+    [SerializeField] private PuyoState ConnectedLeftUpDown;
+    [SerializeField] private PuyoState ConnectedRightUpDown;
+    [SerializeField] private PuyoState ConnectedDownRightLeft;
+    [SerializeField] private PuyoState ConnectedUpRightLeft;
+    [SerializeField] private PuyoState ConnectedUpDownRightLeft;
 
     //para almacenar los estados -- comportamientos segun los datos
     //se pueden consultar cuando quieras mas facilmente
@@ -95,8 +96,9 @@ public class PuyoSprites : ScriptableObject
         ConnectedLeftRight.AsignPuyoState(false, false, true, true);
         PuyoTypes.Add(ConnectedLeftRight.PuyoStateID, ConnectedLeftRight);
 
-        ConnectedUpDown.AsignPuyoState(true,true, false, false);
+        ConnectedUpDown.AsignPuyoState(true, true, false, false);
         PuyoTypes.Add(ConnectedUpDown.PuyoStateID, ConnectedUpDown);
+
         //hecho de tarea
         ConnectedLeftDown.AsignPuyoState(false, true, false, true);
         PuyoTypes.Add(ConnectedLeftDown.PuyoStateID, ConnectedLeftDown);
@@ -107,23 +109,23 @@ public class PuyoSprites : ScriptableObject
         ConnectedUpRight.AsignPuyoState(true, false, true, false);
         PuyoTypes.Add(ConnectedUpRight.PuyoStateID, ConnectedUpRight);
 
-        ConnectedLeftUp.AsignPuyoState(false, false, true, true);
+        ConnectedLeftUp.AsignPuyoState(true, false, false, true);
         PuyoTypes.Add(ConnectedLeftUp.PuyoStateID, ConnectedLeftUp);
 
-        ConnectedLeftBase.AsignPuyoState(false, false, false, true);
-        PuyoTypes.Add(ConnectedLeftBase.PuyoStateID, ConnectedLeftBase);
+        ConnectedLeftUpDown.AsignPuyoState(true, true, false, true);
+        PuyoTypes.Add(ConnectedLeftUpDown.PuyoStateID, ConnectedLeftUpDown);
 
-        ConnectedBaseRight.AsignPuyoState(false, false, true, false);
-        PuyoTypes.Add(ConnectedBaseRight.PuyoStateID, ConnectedBaseRight);
+        ConnectedRightUpDown.AsignPuyoState(true, true, true, false);
+        PuyoTypes.Add(ConnectedRightUpDown.PuyoStateID, ConnectedRightUpDown);
 
-        ConnectedBaseDown.AsignPuyoState(false, true, false, false);
-        PuyoTypes.Add(ConnectedBaseDown.PuyoStateID, ConnectedBaseDown);
+        ConnectedDownRightLeft.AsignPuyoState(false, true, true, true);
+        PuyoTypes.Add(ConnectedDownRightLeft.PuyoStateID, ConnectedDownRightLeft);
 
-        ConnectedUpBase.AsignPuyoState(true, false, false, false);
-        PuyoTypes.Add(ConnectedUpBase.PuyoStateID, ConnectedUpBase);
+        ConnectedUpRightLeft.AsignPuyoState(true, false, true, true);
+        PuyoTypes.Add(ConnectedUpRightLeft.PuyoStateID, ConnectedUpRightLeft);
 
-        ConnectedBaseCenter.AsignPuyoState(false, false, false, false);
-        PuyoTypes.Add(ConnectedBaseCenter.PuyoStateID, ConnectedBaseCenter);
+        ConnectedUpDownRightLeft.AsignPuyoState(true, true, true, true);
+        PuyoTypes.Add(ConnectedUpDownRightLeft.PuyoStateID, ConnectedUpDownRightLeft);
     }
 
     //para consultar el diccionario porque es privado
