@@ -25,7 +25,7 @@ public class PuyoEyes : MonoBehaviour
     [SerializeField] private Sprite[] animationSprites;
 
     private SpriteRenderer _spriteRenderer; //para llamar al spriteRenderer al cambiar las animaciones
-        private IEnumerator _animateEyes; //para poder contorlar mejor la corrutina se agrega una variable
+    private IEnumerator _animateEyes; //para poder contorlar mejor la corrutina se agrega una variable
 
     //en orden de ejecucion: Awake, Start, OnEnable (ocurre solo cuando un objeto se activa)
     private void Awake() {

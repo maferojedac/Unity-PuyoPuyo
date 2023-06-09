@@ -1023,7 +1023,7 @@ TextureImporter:
       name: LU_4
       rect:
         serializedVersion: 2
-        x: 320
+        x: 321
         y: 128
         width: 32
         height: 32
@@ -2829,12 +2829,12 @@ TextureImporter:
       LUD_1: 1608277443
       LD_2: -1925587473
       RUD_3: -2082916532
-      LU_4: 1776217041
+      UR_4: -393415049
       UD_7: 1503047416
       LU_1: 813805113
       LU_2: 1320904019
       DR_5: 2068968122
-      UR_4: -393415049
+      LU_4: 1776217041
       Puyos_SpriteSheet32x32_55: -1481266083
       Puyos_SpriteSheet32x32_17: 1664191018
       Puyos_SpriteSheet32x32_75: 530925459
