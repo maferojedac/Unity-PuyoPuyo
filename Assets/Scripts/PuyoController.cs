@@ -7,6 +7,7 @@ using UnityEngine;
 //para controlar el controlador del controlador del puyo
 public class PuyoController : MonoBehaviour
 {
+    //hace referencia al controlador de estados del puyo (PuyoBase en la jerarquia)
     [SerializeField] private PuyoStateController puyoBase;
     [SerializeField] private PuyoExplosion puyoExplosion;
 
@@ -24,10 +25,10 @@ public class PuyoController : MonoBehaviour
     }
 
     private void Update() {
-        if(Input.GetKeyDown(KeyCode.A)) {
+        if(Input.GetKeyDown(KeyCode.A)) { //base
             ChangePuyoState(false, false, false, false);
         }
-        if(Input.GetKeyDown(KeyCode.B)) { //mira hacia arriba
+        if(Input.GetKeyDown(KeyCode.B)) { //up
             ChangePuyoState(true, false, false, false);
         }
         if(Input.GetKeyDown(KeyCode.C)) { //left right
@@ -35,6 +36,41 @@ public class PuyoController : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.Space)) {
             KillPuyo();
+        }
+
+        //se hizo de tarea
+        if(Input.GetKeyDown(KeyCode.P)) { //left
+            ChangePuyoState(false, false, false, true);
+        }
+        if(Input.GetKeyDown(KeyCode.E)) { //up down
+            ChangePuyoState(true, true, false, false);
+        }
+        if(Input.GetKeyDown(KeyCode.O)) { //left down
+            ChangePuyoState(false, true, false, true);
+        }
+        if(Input.GetKeyDown(KeyCode.G)) { //down right
+            ChangePuyoState(false, true, true, false);
+        }
+        if(Input.GetKeyDown(KeyCode.H)) { //up right
+            ChangePuyoState(true, false, true, false);
+        }
+        if(Input.GetKeyDown(KeyCode.I)) { //left up
+            ChangePuyoState(true, false, false, true);
+        }
+        if(Input.GetKeyDown(KeyCode.J)) { //left up down
+            ChangePuyoState(true, true, false, true);
+        }
+        if(Input.GetKeyDown(KeyCode.K)) { //right up down
+            ChangePuyoState(true, true, true, false);
+        }
+        if(Input.GetKeyDown(KeyCode.L)) { //down right left
+            ChangePuyoState(false, true, true, true);
+        }
+        if(Input.GetKeyDown(KeyCode.M)) { //up right left
+            ChangePuyoState(true, false, true, true);
+        }
+        if(Input.GetKeyDown(KeyCode.N)) { //up down right left
+            ChangePuyoState(true, true, true, true);
         }
     }
 

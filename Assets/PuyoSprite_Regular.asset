@@ -112,7 +112,7 @@ MonoBehaviour:
     - {fileID: 1776217041, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     - {fileID: -1824116405, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     - {fileID: 2099180698, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
-  ConnectedLeftBase:
+  ConnectedLeftUpDown:
     Base: {fileID: 1608277443, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     White: {fileID: 1734505800, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     RegularEyes: {fileID: 1003244926, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
@@ -122,7 +122,7 @@ MonoBehaviour:
     - {fileID: 678895145, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     - {fileID: -1050632299, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     - {fileID: 1178471916, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
-  ConnectedBaseRight:
+  ConnectedRightUpDown:
     Base: {fileID: -411067577, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     White: {fileID: 1989004470, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     RegularEyes: {fileID: -2082916532, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
@@ -132,7 +132,7 @@ MonoBehaviour:
     - {fileID: -143501339, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     - {fileID: 695720006, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     - {fileID: 2084854590, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
-  ConnectedBaseDown:
+  ConnectedDownRightLeft:
     Base: {fileID: 1144981424, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     White: {fileID: 1578117590, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     RegularEyes: {fileID: -1377600814, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
@@ -142,7 +142,7 @@ MonoBehaviour:
     - {fileID: -1018444945, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     - {fileID: -1908611142, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     - {fileID: -1408675470, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
-  ConnectedUpBase:
+  ConnectedUpRightLeft:
     Base: {fileID: -1111030578, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     White: {fileID: 1129765908, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     RegularEyes: {fileID: 504062765, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
@@ -152,7 +152,7 @@ MonoBehaviour:
     - {fileID: 758042658, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     - {fileID: 1714175997, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     - {fileID: 254309573, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
-  ConnectedBaseCenter:
+  ConnectedUpDownRightLeft:
     Base: {fileID: -1631058109, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     White: {fileID: -531419989, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
     RegularEyes: {fileID: 1865187863, guid: 6b8f88c3f28a32147899df71ef66d30f, type: 3}
